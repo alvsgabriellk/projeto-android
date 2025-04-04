@@ -28,19 +28,19 @@ body {
     background-color: var(--cor1);
     font-family: var(--fonte-padrao);
 }
-
+ /* IMG de link dps da frase */
 .externo::after {
-    content: '00A0\1F517';
+    content: '\00A0\1F517'; /* '\00A0\1F517' */
 }
-
+ /* code do iframe do youtube */
 .video {
     background-color: var(--cor5);
    margin: 0px -20px 30px -20px;
    padding: 20px;
    padding-bottom: 58%;
    position: relative;
-}
-
+} 
+/* code do iframe do youtube */
 div.video > iframe {
     position: absolute;
     top: 5%;
@@ -75,7 +75,7 @@ header > p {
     padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.407);
 }
-
+/* botões */
 nav {
     background-color: var(--cor5);
     padding: 10px;
@@ -114,7 +114,7 @@ main h1 {
     font-weight: normal;
     font-size: 1.8em;
 }
-
+/* code com font android */
 main h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
@@ -145,7 +145,7 @@ main a {
     padding: 2px 6px;
 
 }
-
+/* anim da mouse link */
 main a:hover {
     text-decoration: underline;
     color: var(--cor4);
@@ -167,7 +167,7 @@ aside {
     border-radius: 10px;
     box-shadow: 3px 8px 8px rgba(0, 0, 0, 0.222);
 }
-
+/* code de posição do "header" do aside*/
 aside > h3 {
     background-color: var(--cor4);
     color: white;
@@ -175,7 +175,7 @@ aside > h3 {
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
 }
-
+/* colunas de versões */
 aside > ul {
     list-style-type: '\1F5F8\00A0';
     list-style-position: inside;
